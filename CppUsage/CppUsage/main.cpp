@@ -12,6 +12,10 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    std::cout << "Hello, World!\n";
+    
+    /**
+     * for testing dynamic binding n polymorphism
+     **/
     A a, b;
     a.f();
     cout << "sizeof(a)=" << sizeof(a) << endl;
@@ -34,7 +38,9 @@ int main(int argc, const char * argv[]) {
     
     cout << "*x=" << x << endl;
     cout << "*y=" << y << endl;
-
+///////////////////
+    
+    
     
     return 0;
 }
